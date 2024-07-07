@@ -58,11 +58,9 @@ app.get("/*", (req, res) => {
       <head>
         ${helmet.title.toString()}
         ${helmet.meta.toString()}
-        <!-- Other head elements -->
       </head>
       <body>
         <div id="root">${appHtml}</div>
-        <script src="/main.js"></script>
       </body>
     </html>
   `;
